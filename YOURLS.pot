@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
-"POT-Creation-Date: 2013-02-15 15:33+0100\n"
-"PO-Revision-Date: 2013-02-15 15:34+0100\n"
-"Last-Translator: Ozh <ozh@ozh.org>\n"
+"POT-Creation-Date: 2013-03-27 23:02+0100\n"
+"PO-Revision-Date: 2013-03-27 23:02+0100\n"
+"Last-Translator: Ozh <ozh[at]ozh.org>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
@@ -22,16 +22,19 @@ msgstr ""
 msgid "Statistics for %s"
 msgstr ""
 
-#: yourls-infos.php:211
-msgid "Short URL:"
+#: yourls-infos.php:211 admin/index.php:15 admin/index.php:34
+#: admin/index.php:93 includes/functions-html.php:206
+#: includes/functions-html.php:218 includes/functions-html.php:468
+#: includes/functions-html.php:605
+msgid "Short URL"
 msgstr ""
 
 #: yourls-infos.php:227
 msgid "Aggregate stats for duplicate short URLs"
 msgstr ""
 
-#: yourls-infos.php:229
-msgid "Long URL:"
+#: yourls-infos.php:229 includes/functions-html.php:468
+msgid "Long URL"
 msgstr ""
 
 #: yourls-infos.php:235 yourls-infos.php:246
@@ -42,12 +45,12 @@ msgstr ""
 msgid "Traffic location"
 msgstr ""
 
-#: yourls-infos.php:237
+#: yourls-infos.php:237 yourls-infos.php:469
 msgid "Traffic sources"
 msgstr ""
 
-#: yourls-infos.php:239 yourls-infos.php:540 includes/functions-html.php:463
-#: includes/functions-html.php:464
+#: yourls-infos.php:239 yourls-infos.php:540 includes/functions-html.php:509
+#: includes/functions-html.php:510
 msgid "Share"
 msgstr ""
 
@@ -113,8 +116,8 @@ msgstr ""
 #. //translators: eg. 43 hits on January 1, 1970
 #: yourls-infos.php:380
 #, php-format
-msgid "<strong>%s</strong> hit on %s"
-msgid_plural "<strong>%s</strong> hits on %s"
+msgid "<strong>%1$s</strong> hit on %2$s"
+msgid_plural "<strong>%1$s</strong> hits on %2$s"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -148,10 +151,6 @@ msgstr ""
 
 #: yourls-infos.php:463
 msgid "No country data."
-msgstr ""
-
-#: yourls-infos.php:469
-msgid "Traffic Sources"
 msgstr ""
 
 #: yourls-infos.php:478
@@ -205,72 +204,61 @@ msgstr ""
 msgid "Short link"
 msgstr ""
 
-#: yourls-infos.php:542
-msgid "Quick Share "
+#: yourls-infos.php:542 includes/functions-html.php:356
+msgid "Quick Share"
 msgstr ""
 
-#: admin/index.php:13 admin/index.php:39 admin/index.php:98
-#: includes/functions-html.php:205 includes/functions-html.php:213
+#: admin/index.php:13 admin/index.php:38 admin/index.php:97
+#: includes/functions-html.php:207 includes/functions-html.php:219
 msgid "URL"
 msgstr ""
 
-#: admin/index.php:15 admin/index.php:35 admin/index.php:94
-#: includes/functions-html.php:204 includes/functions-html.php:212
-#: includes/functions-html.php:422 includes/functions-html.php:559
-msgid "Short URL"
-msgstr ""
-
-#: admin/index.php:17 admin/index.php:120
-msgid "Descending Order"
-msgstr ""
-
-#: admin/index.php:43 includes/functions-html.php:206
-#: includes/functions-html.php:422
+#: admin/index.php:42 includes/functions-html.php:208
+#: includes/functions-html.php:468
 msgid "Title"
 msgstr ""
 
-#: admin/index.php:47 admin/index.php:106
+#: admin/index.php:46 admin/index.php:105
 msgid "IP Address"
 msgstr ""
 
-#: admin/index.php:51
+#: admin/index.php:50
 #, php-format
-msgid "Searching for <strong>%s</strong> in <strong>%s</strong>."
+msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
 msgstr ""
 
-#: admin/index.php:102 includes/functions-html.php:214
-#: includes/functions-html.php:561
+#: admin/index.php:101 includes/functions-html.php:220
+#: includes/functions-html.php:607
 msgid "Date"
 msgstr ""
 
-#: admin/index.php:110 includes/functions-html.php:216
-#: includes/functions-html.php:563
+#: admin/index.php:109 includes/functions-html.php:222
+#: includes/functions-html.php:609
 msgid "Clicks"
 msgstr ""
 
-#: admin/index.php:116
-msgid "Ascending Order"
-msgstr ""
-
-#: admin/index.php:221
+#: admin/index.php:218
 #, php-format
 msgid ""
-"Display <strong>%s</strong> to <strong class=\"increment\">%s</strong> of "
-"<strong class=\"increment\">%s</strong> URLs"
+"Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
+"of <strong class=\"increment\">%3$s</strong> URLs"
 msgstr ""
+
+#: admin/index.php:220
+#, php-format
+msgid "counting <strong>1</strong> click"
+msgid_plural "counting <strong>%s</strong> clicks"
+msgstr[0] ""
+msgstr[1] ""
 
 #: admin/index.php:223
-msgid "counting <strong>1</strong> click"
-msgstr ""
-
-#: admin/index.php:226
 #, php-format
 msgid ""
-"Overall, tracking <strong class=\"increment\">%s</strong> links, <strong>%s</"
-"strong> clicks, and counting!"
+"Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
+"%2$s</strong> clicks, and counting!"
 msgstr ""
 
-#: admin/index.php:286
+#: admin/index.php:283
 msgid "No URL"
 msgstr ""
 
@@ -317,7 +305,7 @@ msgstr ""
 msgid "Plugin has been deactivated"
 msgstr ""
 
-#: admin/plugins.php:58 includes/functions-html.php:678
+#: admin/plugins.php:58 includes/functions-html.php:724
 msgid "Manage Plugins"
 msgstr ""
 
@@ -336,8 +324,8 @@ msgstr[1] ""
 #: admin/plugins.php:74
 #, php-format
 msgid ""
-"You currently have <strong>%s</strong> installed, and <strong>%s</strong> "
-"activated"
+"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
+"strong> activated"
 msgstr ""
 
 #: admin/plugins.php:79
@@ -666,242 +654,236 @@ msgid ""
 "details"
 msgstr ""
 
-#: includes/functions-html.php:140
+#: includes/functions-html.php:141
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/functions-html.php:145
+#: includes/functions-html.php:146
 #, php-format
 msgid "Powered by %s"
 msgstr ""
 
-#: includes/functions-html.php:171
+#: includes/functions-html.php:172
 msgid "Enter the URL"
 msgstr ""
 
-#: includes/functions-html.php:172
+#: includes/functions-html.php:173
 msgid "Optional "
 msgstr ""
 
-#: includes/functions-html.php:172
+#: includes/functions-html.php:173
 msgid "Custom short URL"
 msgstr ""
 
-#: includes/functions-html.php:174
+#: includes/functions-html.php:175
 msgid "Shorten The URL"
 msgstr ""
 
-#: includes/functions-html.php:200
-msgid "Search for"
-msgstr ""
-
-#: includes/functions-html.php:202
-msgid "in"
-msgstr ""
-
-#: includes/functions-html.php:207 includes/functions-html.php:215
-#: includes/functions-html.php:562
+#: includes/functions-html.php:209 includes/functions-html.php:221
+#: includes/functions-html.php:608
 msgid "IP"
 msgstr ""
 
-#: includes/functions-html.php:209
-msgid "Order by"
+#. //translators: "Search for <input field with text to search> in <select dropdown with URL, title...>"
+#: includes/functions-html.php:213
+#, php-format
+msgid "Search for %1$s in %2$s"
 msgstr ""
 
-#: includes/functions-html.php:220
+#: includes/functions-html.php:227
 msgid "Ascending"
 msgstr ""
 
-#: includes/functions-html.php:221
+#: includes/functions-html.php:228
 msgid "Descending"
 msgstr ""
 
-#: includes/functions-html.php:223
-msgid "Show"
+#. //translators: "Order by <criteria dropdown (date, clicks...)> in <order dropdown (Descending or Ascending)>"
+#: includes/functions-html.php:232
+#, php-format
+msgid "Order by %1$s %2$s"
 msgstr ""
 
-#: includes/functions-html.php:224
-msgid "rows"
+#. //translators: "Show <text field> rows"
+#: includes/functions-html.php:237
+#, php-format
+msgid "Show %s rows"
 msgstr ""
 
-#: includes/functions-html.php:226
-msgid "Show links with"
-msgstr ""
-
-#: includes/functions-html.php:228
+#: includes/functions-html.php:242
 msgid "more"
 msgstr ""
 
-#: includes/functions-html.php:229
+#: includes/functions-html.php:243
 msgid "less"
 msgstr ""
 
-#: includes/functions-html.php:231
-msgid "than"
+#. //translators: "Show links with <more/less> than <text field> clicks"
+#: includes/functions-html.php:248
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
 msgstr ""
 
-#: includes/functions-html.php:232
-msgid "clicks"
-msgstr ""
-
-#: includes/functions-html.php:234
-msgid "Show links created"
-msgstr ""
-
-#: includes/functions-html.php:236
+#: includes/functions-html.php:253
 msgid "before"
 msgstr ""
 
-#: includes/functions-html.php:237
+#: includes/functions-html.php:254
 msgid "after"
 msgstr ""
 
-#: includes/functions-html.php:238
+#: includes/functions-html.php:255
 msgid "between"
 msgstr ""
 
-#: includes/functions-html.php:245
+#. //translators: "Show links created <before/after/between> <date input> <"and" if applicable> <date input if applicable>"
+#: includes/functions-html.php:262
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr ""
+
+#: includes/functions-html.php:266
 msgid "Search"
 msgstr ""
 
-#: includes/functions-html.php:247
+#: includes/functions-html.php:268
 msgid "Clear"
 msgstr ""
 
-#: includes/functions-html.php:267
+#: includes/functions-html.php:288
 #, php-format
 msgid "1 page"
 msgid_plural "%s pages"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/functions-html.php:275 includes/functions-html.php:289
+#: includes/functions-html.php:296 includes/functions-html.php:310
 msgid "Go to First Page"
 msgstr ""
 
-#: includes/functions-html.php:275
+#: includes/functions-html.php:296
 msgid "&laquo; First"
 msgstr ""
 
-#: includes/functions-html.php:289
+#: includes/functions-html.php:310
 msgid "Last &raquo;"
 msgstr ""
 
-#: includes/functions-html.php:308
+#: includes/functions-html.php:354
 msgid "Your short link"
 msgstr ""
 
-#: includes/functions-html.php:310
-msgid "Quick Share"
-msgstr ""
-
-#: includes/functions-html.php:339
+#: includes/functions-html.php:385
 msgid "Long link"
 msgstr ""
 
-#: includes/functions-html.php:341 includes/functions-html.php:457
-#: includes/functions-html.php:458
+#: includes/functions-html.php:387 includes/functions-html.php:503
+#: includes/functions-html.php:504
 msgid "Stats"
 msgstr ""
 
-#: includes/functions-html.php:355
+#: includes/functions-html.php:401
 msgid "Share with"
 msgstr ""
 
-#: includes/functions-html.php:356
+#: includes/functions-html.php:402
 msgid "Tweet this!"
 msgstr ""
 
-#: includes/functions-html.php:357
+#: includes/functions-html.php:403
 msgid "Share on Facebook"
 msgstr ""
 
-#: includes/functions-html.php:358
+#: includes/functions-html.php:404
 msgid "Share on Friendfeed"
 msgstr ""
 
-#: includes/functions-html.php:422
-msgid "Long URL"
-msgstr ""
-
-#: includes/functions-html.php:422
+#: includes/functions-html.php:468
 msgid "Save"
 msgstr ""
 
-#: includes/functions-html.php:422
+#: includes/functions-html.php:468
 msgid "Save new values"
 msgstr ""
 
-#: includes/functions-html.php:422
+#: includes/functions-html.php:468
 msgid "Cancel"
 msgstr ""
 
-#: includes/functions-html.php:422
+#: includes/functions-html.php:468
 msgid "Cancel editing"
 msgstr ""
 
-#: includes/functions-html.php:424
+#: includes/functions-html.php:470
 msgid "Error, URL not found"
 msgstr ""
 
-#: includes/functions-html.php:470 includes/functions-html.php:471
+#: includes/functions-html.php:516 includes/functions-html.php:517
 msgid "Edit"
 msgstr ""
 
-#: includes/functions-html.php:477 includes/functions-html.php:478
+#: includes/functions-html.php:523 includes/functions-html.php:524
 msgid "Delete"
 msgstr ""
 
-#: includes/functions-html.php:499
+#: includes/functions-html.php:545
 msgid "Not a common link"
 msgstr ""
 
-#: includes/functions-html.php:560
+#: includes/functions-html.php:606
 msgid "Original URL"
 msgstr ""
 
-#: includes/functions-html.php:564
+#: includes/functions-html.php:610
 msgid "Actions"
 msgstr ""
 
-#: includes/functions-html.php:630
+#: includes/functions-html.php:676
 msgid "Username"
 msgstr ""
 
-#: includes/functions-html.php:634
+#: includes/functions-html.php:680
 msgid "Password"
 msgstr ""
 
-#: includes/functions-html.php:638
+#: includes/functions-html.php:684
 msgid "Login"
 msgstr ""
 
-#: includes/functions-html.php:656
+#: includes/functions-html.php:702
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr ""
 
-#: includes/functions-html.php:656
+#: includes/functions-html.php:702
 msgid "Logout"
 msgstr ""
 
-#: includes/functions-html.php:660
+#: includes/functions-html.php:706
 msgid "Help"
 msgstr ""
 
-#: includes/functions-html.php:667
+#: includes/functions-html.php:713
 msgid "Go to the admin interface"
 msgstr ""
 
-#: includes/functions-html.php:668
+#: includes/functions-html.php:714
 msgid "Admin interface"
 msgstr ""
 
-#: includes/functions-html.php:674
+#: includes/functions-html.php:720
 msgid "Tools"
+msgstr ""
+
+#: includes/functions-html.php:848
+msgid "Today"
+msgstr ""
+
+#: includes/functions-html.php:849
+msgid "Close"
 msgstr ""
 
 #: includes/functions-install.php:243
@@ -923,265 +905,265 @@ msgid "Error creating YOURLS tables."
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:752 includes/functions-l10n.php:762
-#: includes/functions-l10n.php:775
+#: includes/functions-l10n.php:778 includes/functions-l10n.php:788
+#: includes/functions-l10n.php:801
 msgid "Sunday"
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:753 includes/functions-l10n.php:763
-#: includes/functions-l10n.php:776
+#: includes/functions-l10n.php:779 includes/functions-l10n.php:789
+#: includes/functions-l10n.php:802
 msgid "Monday"
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:754 includes/functions-l10n.php:764
-#: includes/functions-l10n.php:777
+#: includes/functions-l10n.php:780 includes/functions-l10n.php:790
+#: includes/functions-l10n.php:803
 msgid "Tuesday"
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:755 includes/functions-l10n.php:765
-#: includes/functions-l10n.php:778
+#: includes/functions-l10n.php:781 includes/functions-l10n.php:791
+#: includes/functions-l10n.php:804
 msgid "Wednesday"
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:756 includes/functions-l10n.php:766
-#: includes/functions-l10n.php:779
+#: includes/functions-l10n.php:782 includes/functions-l10n.php:792
+#: includes/functions-l10n.php:805
 msgid "Thursday"
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:757 includes/functions-l10n.php:767
-#: includes/functions-l10n.php:780
+#: includes/functions-l10n.php:783 includes/functions-l10n.php:793
+#: includes/functions-l10n.php:806
 msgid "Friday"
 msgstr ""
 
 #. //translators: weekday
-#: includes/functions-l10n.php:758 includes/functions-l10n.php:768
-#: includes/functions-l10n.php:781
+#: includes/functions-l10n.php:784 includes/functions-l10n.php:794
+#: includes/functions-l10n.php:807
 msgid "Saturday"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:762
+#: includes/functions-l10n.php:788
 msgid "S_Sunday_initial"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:763
+#: includes/functions-l10n.php:789
 msgid "M_Monday_initial"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:764
+#: includes/functions-l10n.php:790
 msgid "T_Tuesday_initial"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:765
+#: includes/functions-l10n.php:791
 msgid "W_Wednesday_initial"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:766
+#: includes/functions-l10n.php:792
 msgid "T_Thursday_initial"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:767
+#: includes/functions-l10n.php:793
 msgid "F_Friday_initial"
 msgstr ""
 
 #. //translators: one-letter abbreviation of the weekday
-#: includes/functions-l10n.php:768
+#: includes/functions-l10n.php:794
 msgid "S_Saturday_initial"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:775
+#: includes/functions-l10n.php:801
 msgid "Sun"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:776
+#: includes/functions-l10n.php:802
 msgid "Mon"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:777
+#: includes/functions-l10n.php:803
 msgid "Tue"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:778
+#: includes/functions-l10n.php:804
 msgid "Wed"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:779
+#: includes/functions-l10n.php:805
 msgid "Thu"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:780
+#: includes/functions-l10n.php:806
 msgid "Fri"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the weekday
-#: includes/functions-l10n.php:781
+#: includes/functions-l10n.php:807
 msgid "Sat"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:784 includes/functions-l10n.php:799
+#: includes/functions-l10n.php:810 includes/functions-l10n.php:825
 msgid "January"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:785 includes/functions-l10n.php:800
+#: includes/functions-l10n.php:811 includes/functions-l10n.php:826
 msgid "February"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:786 includes/functions-l10n.php:801
+#: includes/functions-l10n.php:812 includes/functions-l10n.php:827
 msgid "March"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:787 includes/functions-l10n.php:802
+#: includes/functions-l10n.php:813 includes/functions-l10n.php:828
 msgid "April"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:788 includes/functions-l10n.php:803
+#: includes/functions-l10n.php:814 includes/functions-l10n.php:829
 msgid "May"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:789 includes/functions-l10n.php:804
+#: includes/functions-l10n.php:815 includes/functions-l10n.php:830
 msgid "June"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:790 includes/functions-l10n.php:805
+#: includes/functions-l10n.php:816 includes/functions-l10n.php:831
 msgid "July"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:791 includes/functions-l10n.php:806
+#: includes/functions-l10n.php:817 includes/functions-l10n.php:832
 msgid "August"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:792 includes/functions-l10n.php:807
+#: includes/functions-l10n.php:818 includes/functions-l10n.php:833
 msgid "September"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:793 includes/functions-l10n.php:808
+#: includes/functions-l10n.php:819 includes/functions-l10n.php:834
 msgid "October"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:794 includes/functions-l10n.php:809
+#: includes/functions-l10n.php:820 includes/functions-l10n.php:835
 msgid "November"
 msgstr ""
 
 #. //translators: month name
-#: includes/functions-l10n.php:795 includes/functions-l10n.php:810
+#: includes/functions-l10n.php:821 includes/functions-l10n.php:836
 msgid "December"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:799
+#: includes/functions-l10n.php:825
 msgid "Jan_January_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:800
+#: includes/functions-l10n.php:826
 msgid "Feb_February_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:801
+#: includes/functions-l10n.php:827
 msgid "Mar_March_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:802
+#: includes/functions-l10n.php:828
 msgid "Apr_April_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:803
+#: includes/functions-l10n.php:829
 msgid "May_May_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:804
+#: includes/functions-l10n.php:830
 msgid "Jun_June_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:805
+#: includes/functions-l10n.php:831
 msgid "Jul_July_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:806
+#: includes/functions-l10n.php:832
 msgid "Aug_August_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:807
+#: includes/functions-l10n.php:833
 msgid "Sep_September_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:808
+#: includes/functions-l10n.php:834
 msgid "Oct_October_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:809
+#: includes/functions-l10n.php:835
 msgid "Nov_November_abbreviation"
 msgstr ""
 
 #. //translators: three-letter abbreviation of the month
-#: includes/functions-l10n.php:810
+#: includes/functions-l10n.php:836
 msgid "Dec_December_abbreviation"
 msgstr ""
 
-#: includes/functions-l10n.php:817
+#: includes/functions-l10n.php:843
 msgid "am"
 msgstr ""
 
-#: includes/functions-l10n.php:818
+#: includes/functions-l10n.php:844
 msgid "pm"
 msgstr ""
 
-#: includes/functions-l10n.php:819
+#: includes/functions-l10n.php:845
 msgid "AM"
 msgstr ""
 
-#: includes/functions-l10n.php:820
+#: includes/functions-l10n.php:846
 msgid "PM"
 msgstr ""
 
 #. //translators: $thousands_sep argument for http://php.net/number_format, default is ,
-#: includes/functions-l10n.php:826
+#: includes/functions-l10n.php:852
 msgid "number_format_thousands_sep"
 msgstr ""
 
 #. //translators: $dec_point argument for http://php.net/number_format, default is .
-#: includes/functions-l10n.php:830
+#: includes/functions-l10n.php:856
 msgid "number_format_decimal_point"
 msgstr ""
 
-#. //translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
-#: includes/functions-l10n.php:837
+#. //translators: 'rtl' or 'ltr'. This sets the text direction for YOURLS.
+#: includes/functions-l10n.php:863
 msgid "ltr"
 msgstr ""
 
@@ -1201,7 +1183,7 @@ msgstr ""
 
 #: includes/functions-plugins.php:436
 #, php-format
-msgid "Plugin generated expected output. Error was: <br/><pre>%s</pre>"
+msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr ""
 
 #: includes/functions-plugins.php:459
@@ -1265,55 +1247,55 @@ msgstr ""
 msgid "Fatal error"
 msgstr ""
 
-#: includes/functions.php:723
+#: includes/functions.php:724
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
 "here</a>"
 msgstr ""
 
-#: includes/functions.php:731
+#: includes/functions.php:732
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr ""
 
-#: includes/functions.php:1235
+#: includes/functions.php:1236
 msgid "Too many URLs added too fast. Slow down please."
 msgstr ""
 
-#: includes/functions.php:1235
+#: includes/functions.php:1236
 msgid "Forbidden"
 msgstr ""
 
-#: includes/functions.php:1512
+#: includes/functions.php:1513
 msgid "Unauthorized action or expired link"
 msgstr ""
 
-#: includes/functions.php:1512
+#: includes/functions.php:1513
 msgid "Error"
 msgstr ""
 
-#: includes/functions.php:1895
+#: includes/functions.php:1896
 msgid "Service temporarily unavailable"
 msgstr ""
 
-#: includes/functions.php:1896
+#: includes/functions.php:1897
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr ""
 
-#: includes/functions.php:1897
+#: includes/functions.php:1898
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr ""
 
-#: includes/functions.php:2017
+#: includes/functions.php:2018
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
 
-#: includes/functions.php:2019
+#: includes/functions.php:2020
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
