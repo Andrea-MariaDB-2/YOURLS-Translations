@@ -9,11 +9,11 @@ Para YOURLS 1.6
 
 ## ¿Cómo instalar?
 
-1. Descarga el archivo `yourls_1.6-es_ES.zip` de http://cdn.artilanes.net/public/yourls.org/1.6/translations
+1. Descarga el archivo `yourls_1.6-es_ES.zip` de http://cdn.artilanes.net/public/yourls.org/translations
 
 2. Descomprime el archivo `yourls_1.6-es_ES.zip`.
 
-3. copia los archivos `es_ES.po` y `es_ES.mo` en el directorio `user/languages` de YOURLS.
+3. Copia los archivos `es_ES.po` y `es_ES.mo` en el directorio `user/languages` de YOURLS.
 
 4. En tu archivo `config.php` modifica o añade la siguiente línea:
 ```
