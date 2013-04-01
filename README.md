@@ -23,7 +23,7 @@ define( 'YOURLS_LANG', 'es_ES' );
 
 ## ¡Tiene fallos o tengo una mejor traducción que aportar!
 
-Lo mejor es que abras una derivación (*Fork*) del repositorio oficial, edita el archivo e inicia una *pull request*.
+Lo mejor es que abras una derivación ( *Fork* ) del repositorio oficial, edita el archivo e inicia una *pull request*.
 
 Alternativamente, abre una *issue*.
 
