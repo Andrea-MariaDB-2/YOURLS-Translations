@@ -1,5 +1,5 @@
-# Traducción al español de España de YOURLS
-**(Spanish es_ES YOURLS translation)**
+# Traducción al asturianu y al español de España de YOURLS
+**(Asturian ast_ES & Spanish es_ES YOURLS translations)**
 
 
 ## Versión actual
@@ -7,7 +7,21 @@
 Para YOURLS 1.6
 
 
-## ¿Cómo instalar?
+## ¿Cómo instalar n'asturianu?
+
+1. Descarga l'archivu `yourls_1.6-ast_ES.zip` de http://cdn.artilanes.net/public/yourls.org/translations
+
+2. Descomprime l'archivu `yourls_1.6-ast_ES.zip`.
+
+3. Copia los archivos `as_ES.po` y `as_ES.mo` nel directoriu `user/languages` de YOURLS.
+
+4. Nel to archiva `config.php` cambia o amiesta la ringlera siguiente:
+```
+define( 'YOURLS_LANG', 'ast_ES' );
+```
+
+
+## ¿Cómo instalar en español de España?
 
 1. Descarga el archivo `yourls_1.6-es_ES.zip` de http://cdn.artilanes.net/public/yourls.org/translations
 
@@ -32,9 +46,9 @@ Gracias de antemano :)
 
 ## Créditos
 
-Traducción mantenida por @ozh, http://MiguelMenendez.pro y http://Artilanes.com
+Traducciones mantenidas por @ozh, http://MiguelMenendez.pro y http://Artilanes.com
 
 
 ## Licencia
 
-Haz lo que quieras.
+Haz lo que quieras, pero cita las fuentes.
