@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
 "POT-Creation-Date: 2013-04-16 16:10+0100\n"
-"PO-Revision-Date: 2013-04-25 03:20+0100\n"
+"PO-Revision-Date: 2013-04-25 04:18+0100\n"
 "Last-Translator: http://miguelmenendez.pro <miguel@menendez.pro>\n"
 "Language-Team: http://artilanes.com <info@artilanes.com>\n"
 "Language: es_ES\n"
@@ -301,7 +301,7 @@ msgstr "Instalación de YOURLS completada."
 
 #: admin/install.php:31
 msgid "File <tt>.htaccess</tt> successfully created/updated."
-msgstr "El archivo<tt>.htaccess</tt> ha sido creado (o actualizado) correctamente."
+msgstr "El archivo <tt>.htaccess</tt> ha sido creado (o actualizado) correctamente."
 
 #: admin/install.php:33
 msgid "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
@@ -425,11 +425,11 @@ msgstr "El <span>marcador normal</span> te llevará a una página en la que podr
 
 #: admin/tools.php:22
 msgid "The <span>Instant Bookmarklets</span> will pop the short URL without leaving the page you are viewing."
-msgstr "El <span>marcador instantáneo</span> te mostrará la nueva URL corta sin abandonar la página que está viendo."
+msgstr "El <span>marcador instantáneo</span> te mostrará la nueva URL corta sin abandonar la página que estás viendo."
 
 #: admin/tools.php:24
 msgid "The <span>Simple Bookmarklets</span> will generate a short URL with a random or sequential keyword."
-msgstr "El <span>Marcador sencillo</span> generará una URL corta con una palabra clave aleatoria o secuencial."
+msgstr "El <span>marcador sencillo</span> generará una URL corta con una palabra clave aleatoria o secuencial."
 
 #: admin/tools.php:26
 msgid "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom keyword first."
@@ -449,7 +449,7 @@ msgstr "Los marcadores"
 
 #: admin/tools.php:37
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
-msgstr "Haz click y arrastra los enlaces hacia tu barra de herramientos (o haz click con el botón derecho y selecciona <em>Añadir esta página a marcadores</em>)"
+msgstr "Haz click y arrastra los enlaces hacia tu barra de herramientas (o haz click con el botón derecho y selecciona <em>Añadir esta página a marcadores</em>)"
 
 #: admin/tools.php:43
 msgid "Standard (new page)"
@@ -517,7 +517,7 @@ msgstr "YOURLS permite llamadas a la API al viejo estilo, usando los parámetros
 
 #: admin/tools.php:79
 msgid "If you're worried about sending your credentials into the wild, you can also make API calls without using your login or your password, using a secret signature token."
-msgstr "Si te preocupa enviar sus credenciales en las conexiones a la API, también puedes hacer llamadas a la API sin necesidad de utilizar tu nombre de usuario/a o tu contraseña, usando un identificador secreto."
+msgstr "Si te preocupa enviar tus credenciales en las conexiones a la API, también puedes hacer llamadas a la API sin necesidad de utilizar tu nombre de usuario/a o tu contraseña, usando un identificador secreto."
 
 #: admin/tools.php:83
 #, php-format
@@ -690,7 +690,7 @@ msgstr "Descendente"
 #: includes/functions-html.php:232
 #, php-format
 msgid "Order by %1$s %2$s"
-msgstr "Orden por %1$s %2$s"
+msgstr "Ordenar por %1$s %2$s"
 
 #. //translators: "Show <text field> rows"
 #: includes/functions-html.php:237
@@ -824,7 +824,7 @@ msgstr "No es un enlace común"
 
 #: includes/functions-html.php:606
 msgid "Original URL"
-msgstr "URL orginal"
+msgstr "URL original"
 
 #: includes/functions-html.php:610
 msgid "Actions"
@@ -1178,8 +1178,8 @@ msgstr "LTR"
 #: includes/functions-plugins.php:386
 msgid "Could not find and deactivated plugin :"
 msgid_plural "Could not find and deactivated plugins :"
-msgstr[0] "No fue posible encontrar y desactivar el siguiente <em>plugin</em>:"
-msgstr[1] "No fue posible encontrar y desactivar los siguientes <em>plugins</em>:"
+msgstr[0] "No fué posible encontrar y desactivar el siguiente <em>plugin</em>:"
+msgstr[1] "No fué posible encontrar y desactivar los siguientes <em>plugins</em>:"
 
 #: includes/functions-plugins.php:423
 msgid "Not a valid plugin file"
